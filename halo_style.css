@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  background-image: url(/Photos/design.jpg);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #ffffff;
+  border: #507d2a dotted 5px;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #211f27;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  border-right: #507d2a double 10px;
+}
+
+.sidebar h2 {
+  color: #507d2a;
+  margin-top: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.sidebar ul li a:hover {
+  background-color: #575757;
+}
+
+.Photos {
+  position: relative;
+  width: 250px;
+  height: 700px;
+  object-fit: cover;
+  margin: 5px;
+  border-radius: 10px;
+  transition: width 0.5s ease;
+}
+
+.Photos:hover {
+  width: 500px;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.main-content {
+  margin-left: 400px;
+}
